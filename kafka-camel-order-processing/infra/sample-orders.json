@@ -1,0 +1,4 @@
+{"orderId":"ORD-0001","customerId":"CUST-1","amount":49.99,"currency":"EUR","productCode":"PROD-1","quantity":1}
+{"orderId":"ORD-400","customerId":"CUST-2","amount":20.00,"currency":"EUR","productCode":"INVALID","quantity":1}
+{"orderId":"ORD-503","customerId":"CUST-3","amount":20.00,"currency":"EUR","productCode":"FAIL-503","quantity":1}
+{"orderId":"ORD-BAD","customerId":"CUST-4","amount":20.00,"currency":"EUR","productCode":"PROD-4","quantity":4}
