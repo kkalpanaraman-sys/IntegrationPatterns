@@ -528,10 +528,10 @@ This repository is a learning/portfolio project. A production implementation wou
 - reconciliation for uncertain REST outcomes
 - Kubernetes deployment and resource limits
 
-## Interview explanation
 
-A concise way to explain the duplicate design:
+
+Design:
 
 > Kafka provides at-least-once delivery, so duplicate delivery is possible. In this design, I don't maintain a separate idempotency database in the integration layer because the downstream system owns duplicate handling. I pass the stable order ID as an idempotency key. If Kafka redelivers the same order, the same key is sent again and the downstream system can recognize that it has already processed the business operation.
 
-I would not claim exactly-once processing across Kafka and the external REST system.
+Note:I would not claim exactly-once processing across Kafka and the external REST system.
